@@ -31,11 +31,6 @@ android {
         consumerProguardFiles 'proguard.txt'
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
-    }
-
     lintOptions {
         checkAllWarnings true
         warningsAsErrors true
